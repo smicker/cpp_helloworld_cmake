@@ -9,10 +9,11 @@ This also includes some extra stuff that is nice to have like:
 - curl (for getting web pages)
 - opencv (for graphics)
 - mqtt (for mqtt communication)  
-If you don't need one of those, remote it!!
+
+If you don't need one of those, don't install it and remote it from the CMakeLists.txt!!
 
 ### Requirements
-- The following packages needs to be installed
+- The following packages needs to be installed (if you want them)
   - libfmt-dev (for modern string handling with fmt)
   - libcurl14-gnutls-dev (for doing curl calls)
   - libboost-all-dev (for Boost)
@@ -33,7 +34,9 @@ $ sudo apt install ./libmqtt_1.0.0-0_amd64.deb
 If you want to build OpenCV the old way [see](/docs/opencv.md)
 
 ### Create build directory:
-mkdir build
+``` bash
+$ mkdir build
+```
 
 ### Include paths for OpenCV
 You need to run the following in your terminal before building. Alternatively you can enter
