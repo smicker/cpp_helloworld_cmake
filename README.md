@@ -13,17 +13,16 @@ This also includes some extra stuff that is nice to have like:
 If you don't need one of those, don't install it and remote it from the CMakeLists.txt!!
 
 ### Requirements
-- The following packages needs to be installed (if you want them)
-  - libfmt-dev (for modern string handling with fmt)
-  - libcurl14-gnutls-dev (for doing curl calls)
-  - libboost-all-dev (for Boost)
-  - libmosquitto-dev libmosquittopp-dev mosquitto-dev (for mqtt)
-  - OpenCV (see below)
+The following packages needs to be installed (if you want them)
+- libfmt-dev (for modern string handling with fmt)
+- libcurl14-gnutls-dev (for doing curl calls)
+- libboost-all-dev (for Boost)
+- libmosquitto-dev libmosquittopp-dev mosquitto-dev (for mqtt)
+- OpenCV (see below)
 
 ```sudo apt install -y build-essential libboost-all-dev cmake libcurl4-gnutls-dev libfmt-dev libmosquitto-dev libmosquittopp-dev mosquitto-dev```
 
-## How to install OpenCV and libmosquitto
-### For Ubuntu 19.10/18.04
+### How to install OpenCV and libmosquitto for Ubuntu 19.10/18.04
 
 ``` bash
 $ cd deb_packages
@@ -34,6 +33,7 @@ $ sudo apt install ./libmqtt_1.0.0-0_amd64.deb
 
 If you want to build OpenCV the old way [see](/docs/opencv.md)
 
+## Installation and compilation
 ### Create build directory:
 ``` bash
 $ mkdir build
