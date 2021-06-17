@@ -42,7 +42,6 @@ file(GLOB helloworld_SRC
      "utils/*.cpp"
      "nlohmann/*.cpp"
 )
-list(REMOVE_ITEM Multipart_SRC "${CMAKE_SOURCE_DIR}/awsDemo.cpp") # Remove awsDemo.cpp since we don't want to build that
 
 add_executable(helloworld ${helloworld_SRC}) #Add app's main starting file.
 
