@@ -18,6 +18,7 @@ If you don't need one of those, don't install it and remote it from the CMakeLis
   - libcurl14-gnutls-dev (for doing curl calls)
   - libboost-all-dev (for Boost)
   - libmosquitto-dev libmosquittopp-dev mosquitto-dev (for mqtt)
+  - OpenCV (see below)
 
 ```sudo apt install -y build-essential libboost-all-dev cmake libcurl4-gnutls-dev libfmt-dev libmosquitto-dev libmosquittopp-dev mosquitto-dev```
 
